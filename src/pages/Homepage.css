@@ -1,0 +1,16 @@
+.homepage {
+    padding: 0.5rem;
+    width: 98%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.no_results{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.no_results p {
+    font-weight: bold;
+}

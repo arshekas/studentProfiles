@@ -1,0 +1,73 @@
+.student {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.img {
+    width: 150px;
+    border-radius: 100px;
+    border: 0.5px solid black;
+}
+.left {
+    flex: 0.2;
+}
+.middle {
+    margin-left: 1.5rem;
+    flex: 0.8;
+}
+.middle h2 {
+    font-weight: bold;
+}
+.student_details {
+    padding: 1rem;
+    color: grey;
+    line-height: 0.5rem;
+}
+.grades {
+    padding: 0.5rem 0;
+    color: black;
+}
+.tags p {
+    background-color: silver;
+    color: black;
+    padding: 0.7rem 0.5rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add_tag {
+    width: 25%;
+}
+
+.add_tag input{
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 10px 10px 0 0 ;
+}
+.add_tag input:focus {
+    border: none;
+    border-bottom: 3px solid grey;
+    outline: none
+}
+.right {
+    flex: 0.2;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.right .MuiSvgIcon-root{
+    margin-right: 1rem;
+    color: grey;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.right .MuiSvgIcon-root:hover {
+    color: black;
+}
